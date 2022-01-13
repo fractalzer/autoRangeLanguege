@@ -1,0 +1,25 @@
+MOV x 7
+MOV y 8
+ADD x y
+OUT x
+Тестирую прибавление
+
+MOV x 7
+MOV y 8
+SUB x y
+OUT x
+Тестирую отнимание
+
+MOV x 7
+MOV y 8
+MUL x y
+OUT x
+Тестирую умнажение
+
+MOV x 7
+MOV y 8
+DIV x y
+OUT x
+Тестирую деление
+
+DEL x y
