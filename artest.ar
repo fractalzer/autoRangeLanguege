@@ -1,25 +1,9 @@
-MOV x 7
-MOV y 8
+MOV x 0
+MOV z 400
+MOV y 1
+MARKER 1
 ADD x y
 OUT x
-Тестирую прибавление
-
-MOV x 7
-MOV y 8
-SUB x y
-OUT x
-Тестирую отнимание
-
-MOV x 7
-MOV y 8
-MUL x y
-OUT x
-Тестирую умнажение
-
-MOV x 7
-MOV y 8
-DIV x y
-OUT x
-Тестирую деление
-
-DEL x y
+NOT x z t
+GOTO 1 t
+DEL x z t y d
